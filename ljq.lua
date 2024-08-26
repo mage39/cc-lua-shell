@@ -1,5 +1,5 @@
 function dumptable (table, recurse = 0)
-	tabs = ""
+	local tabs = ""
 	for i = 0, i < recurse, i++ do
 		tabs = string.format("\t%s", tabs)
 	end
